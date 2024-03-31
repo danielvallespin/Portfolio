@@ -1,0 +1,100 @@
+@media only screen and (max-width: 576px){
+    /*Header en modo column*/
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Cambiamos tamaño de foto y borde*/
+    .foto-presentacion{
+        margin-top: 35px;
+        width: 60%;
+        border: 6px solid aqua;
+    }
+    /*Ampliamos caja del texto de header*/
+    .presentacion{
+        width: 80%;
+        margin-left: 20px;
+    }
+    /*Tamaño titulo*/
+    h1{
+        font-size: 2.5rem;
+    }
+    /*Texto header*/
+    .prstxt{
+        font-size: 1.1rem;
+    }
+    /*Poner en columna caja sobre nosotros*/
+    .qs{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Estudios en modo column*/
+    .estudio-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Ampliamos caja de estudios*/
+    .campoEstudios{
+        width: 45%;
+    }
+    /*Hacemos desaparecer un elemnto del footer*/
+    .copy{
+        display: none;
+    }
+    /*Footer centrado*/
+    footer{
+        justify-content: center;
+    }
+    .contxt{
+        font-size: 0.8rem;
+    }
+    /*Margen seciones*/
+    .seciones{
+        margin-top: 35px;
+    }
+    /*Margen entre estudio y h2*/
+    .estudio-container{
+        margin-top: 15px;
+    }
+    /*Texto de quien soy*/
+    .qsspan{
+        padding-block: 0.5vh;
+        font-size: 1rem;
+    }
+    /*foto de quien soy*/
+    .qsfoto{
+        width: 65%;
+    }
+    /*Caja menu*/
+    nav{
+        justify-content: center;
+        padding-right: 0;
+        gap: 8vw;
+    }
+    /*Quitamos efecto raya del menu ya que esta pensado para pulsar y no pasar por encima*/
+    nav > a:hover:after{
+        width: 0%;
+    }
+    /*espacio bajo liniea azul*/
+    .bajoh2{
+        margin-bottom: 0.5em;
+        width: 7rem;
+    }
+    /*Adaptamos la linea azul bajo los h2*/
+    #quiensoy:hover ~ .bajoh2{width: 7rem;}
+    #estudios:hover ~ .bajoh2{width: 7rem;}
+    /*Margen de h2 estudios*/
+    #estudios{
+        margin-left: 15%;
+    }
+    /*Margen raya azul de h2 estudios*/
+    #estudios ~ .bajoh2{
+        margin-left: 17%;
+    }
+    /*Tamaño texto nav*/
+    nav > a{
+        font-size: 1rem;
+    }
+}

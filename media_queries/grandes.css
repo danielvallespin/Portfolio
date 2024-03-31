@@ -1,0 +1,127 @@
+/*1500*/
+@media only screen and (max-width: 1500px){
+    /*Seciones*/
+    .seciones{
+        margin-top: 0;
+    }
+    /*h2*/
+    h2{
+        font-size: 2rem;
+        margin-top: 7%;
+    }
+    /*Texto ilus*/
+    .qsspan{
+        font-size: 1rem;
+    }
+    /*Caja foto ilus*/
+    .qsfoto{
+        width: 45%;
+    }
+    /*espacio bajo liniea azul*/
+    .bajoh2{
+        margin-bottom: 1.5em;
+        width: 90px;
+    }
+    /*Adaptamos la linea azul bajo los h2*/
+    #quiensoy:hover ~ .bajoh2{width: 10.8rem;}
+    #estudios:hover ~ .bajoh2{width: 9.5rem;}
+}
+/*1200*/
+@media only screen and (max-width: 1200px){
+    /*Seciones*/
+    .seciones{
+        margin-top: 0;
+    }
+    /*h2*/
+    h2{
+        font-size: 2rem;
+    }
+    /*Texto ilus*/
+    .qsspan{
+        font-size: 0.8rem;
+    }
+    /*Caja foto ilus*/
+    .qsfoto{
+        width: 45%;
+    }
+    /*espacio bajo liniea azul*/
+    .bajoh2{
+        margin-bottom: 1em;
+    }
+    /*h1*/
+    h1{
+        font-size: 2.3rem;
+    }
+    /*Texto header*/
+    .prstxt{
+        font-size: 0.9rem;
+    }
+    /*Texto derecha footer*/
+    .contxt{
+        font-size: 0.8rem;
+    }
+    /*Margen entre contenedor estudios y h2*/
+    .campoEstudios{
+        margin-top: 10px;
+    }
+}
+/*950*/
+@media only screen and (max-width: 950px){
+    /*Tamaño de seciones*/
+    .seciones{
+    margin-left: 2%;
+    width: 95vw;
+    }
+    /*Texto ilus*/
+    .qsspan{
+        font-size: 0.7rem;
+    }
+    /*espacio bajo liniea azul*/
+    .bajoh2{
+        margin-bottom: 0.5em;
+        width: 65px;
+    }
+    /*Adaptamos la linea azul bajo los h2*/
+    #quiensoy:hover ~ .bajoh2{width: 7.8rem;}
+    #estudios:hover ~ .bajoh2{width: 6.8rem;}
+    /*caja de texto qs*/
+    .qstxt{
+        width: 70%;
+    }
+    /*h2*/
+    h2{
+        font-size: 1.4rem;
+    }
+    /*Caja foto ilus*/
+    .qsfoto{
+        width: 55%;
+    }
+    /*h1*/
+    h1{
+        font-size: 2rem;
+    }
+    /*Texto header*/
+    .prstxt{
+        font-size: 0.8rem;
+    }
+    /*iconos estudios*/
+    .esimg{
+        width: 20%;
+    }
+    /*Foto mía*/
+    .foto-presentacion{
+        width: 30%;
+    }
+    /*Texto derecha footer*/
+    .contxt{
+        font-size: 0.6rem;
+    }
+    /*Texto nav*/
+    nav > a{
+        font-size: 0.8rem;
+    }
+    /*Separacion elementos nav*/
+    nav{
+        gap: 4vw;
+    }
+}

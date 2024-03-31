@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px){
+    /*titulos de estudios*/
+    .campoEstudios > h3{
+        font-size: 1.1rem;
+    }
+    /*Texto de estudios*/
+    .estxt, .estado{
+        font-size: 0.8rem;
+    }
+    /*iconos estudios*/
+    .esimg{
+        width: 25%;
+    }
+    /*Iconos de estudios*/
+    .esIcon{
+        justify-content: space-around;
+    }
+    /*Foto mía*/
+    .foto-presentacion{
+        width: 33%;
+    }
+}
+@media only screen and (max-width: 680px){
+    /*Texto footer*/
+    footer{
+        font-size: 0.6rem;
+    }
+    /*Alinear elemento footer*/
+    .cont-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    /*Texto ilus*/
+    .qsspan{
+        font-size: 0.7rem;
+        padding-block: 0.5vh;
+    }
+    /*Caja foto ilus*/
+    .qsfoto{
+        width: 60%;
+    }
+}

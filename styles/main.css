@@ -1,0 +1,123 @@
+:root{
+    --background-color: rgb(34, 0, 136);
+    --text-color: white;
+}
+/**************************GENERAL**************************/
+.seciones{
+    margin-top: 4vh;
+    margin-left: 10vh;
+    width: 90vw;
+
+    display: flex;
+    flex-direction: column;
+}
+/*Titulos secundarios*/
+h2{
+    font-size: 2.5rem;
+    padding-left: 2vw;
+    margin-bottom: 10px;
+    margin-top: 12%;
+    width: 230px;
+}
+/*Ralla azul bajo h2*/
+.bajoh2{
+    margin-left: 2vw;
+    height: 6px;
+    width: 100px;
+    background-color: aqua;
+    margin-bottom: 2em;
+    border-radius: 20%;
+    transition: all ease 1s;
+}
+/*Pequeña animacion al pasar por encima de quien soy*/
+#quiensoy:hover ~ .bajoh2{
+    width: 13.1rem;
+    transform: scale(1);
+}
+/*Pequeña animacion al pasar por encima de estudios*/
+#estudios:hover ~ .bajoh2{
+    width: 11.3rem;
+    transform: scale(1);
+}
+/**************************QUIEN SOY**************************/
+.qs{
+    display: flex;
+    flex-direction: row;
+}
+/*Div de la foto*/
+.qsfoto{
+    margin-top: 4%;
+    width: 35%;
+}
+/*Foto de ilustracion*/
+.ilustracion{
+    width: 100%;
+    display: block;
+    filter: brightness(80%);
+    opacity: 0.9;
+}
+/*Div con el texto*/
+.qstxt{
+    width: 60%;
+    margin-left: 1vw;
+}
+/*Texto*/
+.qsspan{
+    display: flex;
+    font-size: 1.2rem;
+    padding-left: 3vw;
+    padding-right: 7vw;
+    padding-block: 1vh;
+    color: rgb(88, 87, 87);
+    
+}
+/**************************ESTUDIOS**************************/
+/*Caja padre*/
+.estudio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+/*Titulos 3 de estudios*/
+.campoEstudios > h3{
+    text-align: center;
+}
+/*Cada caja de los estudios*/
+.campoEstudios{
+    margin-top: 40px;
+    padding: 20px;
+    padding-inline: 40px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.8s;
+    border-radius: 5%;
+    width: 25%;
+}
+/*Cunado pasamos por encima de una caja de estudios*/
+.campoEstudios:hover{
+    background-color: rgb(152, 9, 177); 
+}
+/*Caja para los iconos de lenguajes*/
+.esIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+/*Caja de imagenes*/
+.esimg{
+    width: 16%;
+}
+/*Imagen al 100% de su caja padre*/
+.esimg > img{
+    width: 100%;
+}
+/*Texto*/
+.estxt{
+    text-align: center;
+}
+.estado{
+    text-align: center;
+    padding-top: 20px
+}
