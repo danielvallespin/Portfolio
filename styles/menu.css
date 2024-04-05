@@ -3,6 +3,10 @@
     src:url(/fuentes/Montserrat/Montserrat-VariableFont_wght.ttf);
     font-weight: bold;
 }
+/*Scrool suave*/
+html, body{
+    scroll-behavior: smooth;
+}
 /*Ajustamos para cuando clicamos en el menu que salga bien*/
 #quiensoy{
     scroll-margin-top: 150px;
@@ -17,7 +21,7 @@ body{
 }
 /*Variables*/
 :root{
-    --background-menu: rgb(13, 0, 69);
+    --background-menu: rgb(41, 1, 161);
     --text-color: azure;
 }
 /*Barra de menu*/
@@ -33,6 +37,7 @@ nav{
     position: sticky;
     top: 0;
     border-bottom: 2px solid azure;
+    z-index: 2;
 }
 /*Elementos del menu*/
 nav > a{

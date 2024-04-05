@@ -1,6 +1,6 @@
 /*Variables*/
 :root{
-    --background-color: rgb(27, 0, 109);
+    --background-color: rgb(41, 1, 161);
     --text-color: white;
 }
 /*Caja header*/
@@ -19,7 +19,7 @@ header{
 /*Titulo principal*/
 h1{
     margin-top: 0;
-    font-size: 3rem;
+    font-size: 3.3rem;
 }
 /*Caja de foto mía*/
 .foto-presentacion{
@@ -34,4 +34,11 @@ h1{
 /*Caja con texto de h1 y txt*/
 .presentacion{
     width: 38vw;
+}
+/*Texto de presentacion*/
+.prstxt{
+    font-size: 1.3rem;
+    padding-block: 5px;
+    font-weight: normal;
+    letter-spacing: 1px;
 }

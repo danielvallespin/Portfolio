@@ -1,5 +1,5 @@
 :root{
-    --background-color: rgb(34, 0, 136);
+    --background-color: rgb(41, 1, 161);
     --text-color: white;
 }
 /**************************GENERAL**************************/
@@ -75,7 +75,7 @@ h2{
 /*Caja padre*/
 .estudio-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     gap: 10px;
 }
@@ -96,7 +96,7 @@ h2{
 }
 /*Cunado pasamos por encima de una caja de estudios*/
 .campoEstudios:hover{
-    background-color: rgb(152, 9, 177); 
+    background-color: rgba(148, 7, 173, 0.897); 
 }
 /*Caja para los iconos de lenguajes*/
 .esIcon{
