@@ -32,7 +32,7 @@
     }
     /*Estudios en modo column*/
     .estudio-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
     /*Ampliamos caja de estudios*/
