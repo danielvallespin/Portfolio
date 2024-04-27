@@ -97,24 +97,27 @@ h2{
     padding-inline: 40px;
     background-color: var(--background-color);
     color: var(--text-color);
-    transition: background-color 0.8s;
+    transition: 1s;
     border-radius: 5%;
     width: 25%;
 }
 /*Cunado pasamos por encima de una caja de estudios*/
 .campoEstudios:hover{
-    background-color: rgba(148, 7, 173, 0.897); 
+    background-color: rgba(0, 255, 221, 0.897);
+    color: black; 
 }
 /*Caja para los iconos de lenguajes*/
 .esIcon{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 30px;
+    align-items: center;
+    padding-top: 20px;
+    height: 32%;
 }
 /*Caja de imagenes*/
 .esimg{
-    width: 16%;
+    width: 23%;
 }
 /*Imagen al 100% de su caja padre*/
 .esimg > img{
@@ -127,4 +130,50 @@ h2{
 .estado{
     text-align: center;
     padding-top: 20px
+}
+/**************************TECNOLOGIAS**************************/
+
+.tecnologias-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 2%;
+}
+
+
+.tecno-h3{
+    margin-top: 5px;
+    color: var(--text-color);
+    transition:  1s;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.tecno-tarjet{
+    background-color: var(--background-color);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17%;
+    padding: 1%;
+    transition:  1s;
+}
+
+.tecno-tarjet:hover{
+    background-color: rgba(0, 255, 221, 0.897);
+    .tecno-h3{
+        color: black;
+    }
+}
+
+.tecnologia-img-container{
+    margin-block: 20px;
+    width: 50%;
+}
+
+.tecno-img{
+    width: 100%;
 }

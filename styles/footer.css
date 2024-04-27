@@ -29,9 +29,19 @@ footer{
 .contxt{
     text-decoration: none;
     color: var(--text-color);
+    margin-left: 5px;
 }
 /*Aliniar los iconos con el texto*/
 .material-symbols-outlined{
     vertical-align:top;
     padding-right: 5px;
+    transition: 1s;
+}
+
+
+
+.cont-div:hover{
+    .material-symbols-outlined{
+        transform: rotateY(180deg);
+    }
 }
