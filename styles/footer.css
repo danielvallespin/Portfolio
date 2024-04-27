@@ -37,9 +37,7 @@ footer{
     padding-right: 5px;
     transition: 1s;
 }
-
-
-
+/*Transicion iconos footer*/
 .cont-div:hover{
     .material-symbols-outlined{
         transform: rotateY(180deg);

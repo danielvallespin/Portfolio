@@ -132,7 +132,6 @@ h2{
     padding-top: 20px
 }
 /**************************TECNOLOGIAS**************************/
-
 .tecnologias-container{
     display: flex;
     flex-direction: row;
@@ -141,8 +140,7 @@ h2{
     gap: 15px 2%;
     margin-top: 40px;
 }
-
-
+/*Nombre de tecnologia*/
 .tecno-h3{
     margin-top: 5px;
     color: var(--text-color);
@@ -150,7 +148,7 @@ h2{
     font-weight: bold;
     font-size: 1.3em;
 }
-
+/*Caja de cada tecnologia*/
 .tecno-tarjet{
     background-color: var(--background-color);
     border-radius: 5%;
@@ -162,19 +160,19 @@ h2{
     padding: 1%;
     transition:  1s;
 }
-
+/*Efecto*/
 .tecno-tarjet:hover{
     background-color: rgba(0, 255, 221, 0.897);
     .tecno-h3{
         color: black;
     }
 }
-
+/*Caja imagen*/
 .tecnologia-img-container{
     margin-block: 20px;
     width: 50%;
 }
-
+/*Imagen*/
 .tecno-img{
     width: 100%;
 }
