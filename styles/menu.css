@@ -43,14 +43,14 @@ nav{
     z-index: 2;
 }
 /*Elementos del menu*/
-nav > a{
+.nava{
     letter-spacing: 0.5px;
     position: relative;
     text-decoration: none;
     color: var(--text-color);
 }
 /*Animacion subrallado de elementos del menu*/
-nav > a:after{
+.nava:after{
     content: "";
     position: absolute;
     background-color: azure;
@@ -60,6 +60,6 @@ nav > a:after{
     bottom: -6px;
     transition: 0.5s;
 }
-nav > a:hover:after{
+.nava:hover:after{
     width: 100%;
 }
