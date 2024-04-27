@@ -55,7 +55,7 @@
         justify-content: center;
     }
     .contxt{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     /*Margen seciones*/
     .seciones{
@@ -124,4 +124,16 @@
     .tecno-h3{
         font-size: 1.1em;
     }
+    /*Desactivamos hovers*/
+    .campoEstudios:hover{
+        background-color: rgb(41, 1, 161);
+        color: white;
+    }
+    .tecno-tarjet:hover{
+        background-color: rgb(41, 1, 161);
+        .tecno-h3{
+            color: white;
+        }
+    }
+
 }
