@@ -19,6 +19,12 @@
     .foto-presentacion{
         width: 33%;
     }
+    /*Desactivamos rotacion de iconos de contacto*/
+    .cont-div:hover{
+        .material-symbols-outlined{
+            transform: rotateY(0);
+        }
+    }
 }
 @media only screen and (max-width: 680px){
     /*Texto footer*/
@@ -39,5 +45,9 @@
     /*Caja foto ilus*/
     .qsfoto{
         width: 60%;
+    }
+    /*Tecnologias*/
+    .tecno-h3{
+         font-size: 0.9em;
     }
 }

@@ -1,4 +1,8 @@
 @media only screen and (max-width: 576px){
+
+    #quiensoy, #estudios, #tecnologias{
+        scroll-margin-top: 65px;
+    }
     /*Header en modo column*/
     header{
         flex-direction: column;
@@ -30,14 +34,17 @@
         justify-content: center;
         align-items: center;
     }
+    /*Ocultamos la imagen de ilustracion*/
+    .ilustracion{
+        display: none;
+    }
     /*Estudios en modo column*/
     .estudio-container{
-        flex-direction: column-reverse;
         align-items: center;
     }
     /*Ampliamos caja de estudios*/
     .campoEstudios{
-        width: 45%;
+        width: 50%;
     }
     /*Hacemos desaparecer un elemnto del footer*/
     .copy{
@@ -58,6 +65,18 @@
     .estudio-container{
         margin-top: 15px;
     }
+    /*Texto de estudio y centro*/
+    .estxt{
+        font-size: 0.9em;
+    }
+    /*Titulo estudio*/
+    .campoEstudios > h3{
+        font-size: 1.2em;
+    }    
+    /*Foto estudios*/
+    .esimg{
+        width: 45%;
+    }
     /*Texto de quien soy*/
     .qsspan{
         padding-block: 0.5vh;
@@ -77,17 +96,18 @@
     nav > a:hover:after{
         width: 0%;
     }
-    /*espacio bajo liniea azul*/
-    .bajoh2{
-        margin-bottom: 0.5em;
-        width: 7rem;
-    }
-    /*Adaptamos la linea azul bajo los h2*/
+    /*Adaptamos espacio bajo liniea azul*/
+    #quiensoy ~ .bajoh2{width: 115px;}
+    #estudios ~ .bajoh2{width: 100px;}
+    #tecnologias ~ .bajoh2{width: 140px;}
+    /*Desactivamos la linea azul bajo los h2*/
     #quiensoy:hover ~ .bajoh2{width: 7rem;}
     #estudios:hover ~ .bajoh2{width: 7rem;}
+    #tecnologias:hover ~ .bajoh2{width: 7rem;}
     /*Margen de h2 estudios*/
     #estudios{
         margin-left: 15%;
+        margin-top: 30px;
     }
     /*Margen raya azul de h2 estudios*/
     #estudios ~ .bajoh2{
@@ -95,6 +115,13 @@
     }
     /*Tamaño texto nav*/
     nav > a{
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+    /*TECNOLOGIAS*/
+    .tecno-tarjet{
+        width: 38%;
+    }
+    .tecno-h3{
+        font-size: 1.1em;
     }
 }

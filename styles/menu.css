@@ -8,8 +8,11 @@ html, body{
     scroll-behavior: smooth;
 }
 /*Ajustamos para cuando clicamos en el menu que salga bien*/
-#quiensoy, #estudios, #tecnologias{
+#quiensoy{
     scroll-margin-top: 150px;
+}
+#estudios, #tecnologias{
+    scroll-margin-top: 100px;
 }
 /*Fuentes*/
 body{

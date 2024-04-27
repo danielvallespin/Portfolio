@@ -25,6 +25,19 @@
     /*Adaptamos la linea azul bajo los h2*/
     #quiensoy:hover ~ .bajoh2{width: 10.8rem;}
     #estudios:hover ~ .bajoh2{width: 9.5rem;}
+    /*Estudios*/
+    .estxt{
+        font-size: 0.9em;
+    }
+    .campoEstudios{
+        width: 26%;
+    }
+    .estado{
+        margin-bottom: 50px;
+    }
+    .esimg{
+        width: 30%;
+    }
 }
 /*1200*/
 @media only screen and (max-width: 1200px){
@@ -64,7 +77,20 @@
     .campoEstudios{
         margin-top: 10px;
     }
+    /*Tecnologias*/
+    .tecno-tarjet{
+        width: 20.5%;
+    }
+    .tecnologias-container{
+        margin-top: 28px;
+    }
+    /*Foto estudios*/
+    .esimg{
+        width: 40%;
+    }
 }
+
+
 /*950*/
 @media only screen and (max-width: 950px){
     /*Tamaño de seciones*/
@@ -123,5 +149,42 @@
     /*Separacion elementos nav*/
     nav{
         gap: 4vw;
+    }
+    /*Tecnologias*/
+    .tecno-h3{
+        font-size: 1.1em;
+    }
+    /*Foto estudios*/
+    .esimg{
+        width: 15%;
+    }
+    /*Espacio bajo estado estudios*/
+    .estado{
+        margin-bottom: 0;
+    }
+    /*Texto de estudio y centro*/
+    .estxt{
+        font-size: 1.1em;
+    }
+    /*Titulo estudio*/
+    .campoEstudios > h3{
+        font-size: 1.4em;
+    }
+    /*Hacemo s que sea wrap*/
+    .estudio-container{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    /*Cambiamos el tamaño de la caja*/
+    .campoEstudios{
+        width: 85%;
+    }
+    /*Huenco entre centro y imagen*/
+    .esIcon{
+        padding-top: 0;
+    }
+    /*Ajustamos espacios del estado*/
+    .estado{
+        margin-block: 10px;
     }
 }
