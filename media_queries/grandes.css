@@ -49,6 +49,9 @@
     h2{
         font-size: 2rem;
     }
+    #quiensoy{
+        width: 19vw;
+    }
     /*Texto ilus*/
     .qsspan{
         font-size: 0.8rem;

@@ -24,6 +24,9 @@
     h1{
         font-size: 2.5rem;
     }
+    #quiensoy{
+        width: 38vw;
+    }
     /*Texto header*/
     .prstxt{
         font-size: 1.1rem;
@@ -90,7 +93,7 @@
     nav{
         justify-content: center;
         padding-right: 0;
-        gap: 8vw;
+        gap: 6vw;
     }
     /*Quitamos efecto raya del menu ya que esta pensado para pulsar y no pasar por encima*/
     .nava:hover:after{

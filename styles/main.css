@@ -37,14 +37,23 @@ h2{
     width: 13.1rem;
     transform: scale(1);
 }
+#quiensoy{
+    width: 14vw;
+}
 /*Pequeña animacion al pasar por encima de estudios*/
 #estudios:hover ~ .bajoh2{
     width: 11.3rem;
     transform: scale(1);
 }
+#estudios{
+    width: 11vw;
+}
 #tecnologias:hover ~ .bajoh2{
     width: 16rem;
     transform: scale(1);
+}
+#tecnologias{
+    width: 15vw;
 }
 /**************************QUIEN SOY**************************/
 .qs{

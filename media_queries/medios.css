@@ -31,6 +31,9 @@
     footer{
         font-size: 0.6rem;
     }
+    #quiensoy{
+        width: 21vw;
+    }
     /*Alinear elemento footer*/
     .cont-div{
         display: flex;
