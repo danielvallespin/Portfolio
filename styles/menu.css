@@ -42,7 +42,8 @@ nav{
     top: 0;
     border-bottom: 2px solid azure;
     z-index: 2;
-    transition: 0.2s ease;
+    transition: 0.1s ease-in;
+    height: 60px;
 }
 /*Elementos del menu*/
 .nava{
@@ -50,6 +51,7 @@ nav{
     position: relative;
     text-decoration: none;
     color: var(--text-color);
+    z-index: 2;
 }
 /*Animacion subrallado de elementos del menu*/
 .nava:after{

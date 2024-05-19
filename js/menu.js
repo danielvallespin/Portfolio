@@ -8,6 +8,6 @@ function transMenu(){
         menu.style.fontSize = "1em";
     } else{
         menu.style.height = "60px";
-        menu.style.fontSize = "1.2em";
+        menu.style.fontSize = "1.1em";
     }
 }
